@@ -1,11 +1,12 @@
-title:            HMFAYSAL
-description:      "Omega: The Coolest Theme for Jekyll"
-logo:             omikron.png
-disqus_shortname: hmfaysal
+title:            Rails Tips
+description:      "Ruby on Rails tips By Leonardo Scorza"
+logo:             logo.png
+disqus_shortname: wwwleonardoscorzacombr
 # Assign a default image for your site's header and footer
-default_bg:       default_bg1.jpg
+default_bg:       rails.jpg
 search:           true
 share:            true
+comments:          true
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
 readtime:         true
 # Specify the average Words per minute. If not defined, 180 will be used
@@ -18,29 +19,27 @@ fin_color:        "255,255,255"
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-url:       		   /hmfaysal-omega-theme
+url:       		    "http://localhost:4000"
 
 # Owner/author information
 owner:
-  name:           Hossain Mohd Faysal
-  avatar:         hmfaysal.jpg
-  email:          hmfaysal@alum.mit.edu
+  name:           Leonardo Scorza de Souza
+  avatar:         avatar.jpg
+  email:          leonardoscorzas88@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Hossain Mohammad Faysal is an Electrical Engineer and a Mathematician based in Doha, Qatar. His interests are anything that&#8217;s related to math, from math itself to programming languages to music to physics to engineering to philosophy.
+  description:    I'm a Ruby on rails developer freelancer, that travel the world.
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        hmfaysal
-  facebook:       hmfaysal
-  github:         hmfaysal
-  stackexchange:  https://stackexchange.com/users/3402032/hossain-mohd-faysal
-  linkedin:       https://www.linkedin.com/pub/firstname-lastname/12/345/678
-  instagram:      
-  flickr:         
-  tumblr:         
+  twitter:        olhardeelefante
+  facebook:       leonardo.scorzadesouza
+  github:         leonardoscorza
+  stackexchange:  https://stackexchange.com/users/4736729/leonardo-scorza
+  linkedin:       https://br.linkedin.com/pub/leonardo-scorza-de-souza/2b/a35/7ab
+  instagram:      olhardeelefante
   # For Google Authorship https://plus.google.com/authorship
   google_plus:    https://plus.google.com/u/0/102602916593522619858
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   UA-39365944-7
+google_analytics:   UA-68165286-1
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
@@ -196,7 +195,8 @@ prose:
         field:
           element: "checkbox"
           label: "Comments"
-          value: false
-
+          value: true
+          
+gems: ['kramdown']
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]

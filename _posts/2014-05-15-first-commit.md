@@ -11,7 +11,7 @@ image:
   feature: "website-speed.jpg"
   credit: spreadeffect.com
   creditlink: "http://www.spreadeffect.com/blog/improve-website-speed/"
-comments: false
+comments: true
 mathjax: null
 featured: true
 published: true
