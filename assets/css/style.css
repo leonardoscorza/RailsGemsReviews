@@ -3866,7 +3866,11 @@ a#slide:hover{
     }
 
 a#slide:after{
-    content:"F"
+    content: "\f0c9";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
     }
 
 a#slide.slide:after{
